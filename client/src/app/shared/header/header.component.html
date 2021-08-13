@@ -1,0 +1,21 @@
+<header class="py-3 border-bottom">
+    <div class="container d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
+      <div class="d-flex">
+          <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-warning"
+                routerLink="pokemon" routerLinkActive="active" 
+                [routerLinkActiveOptions]="{ exact: true }">Pokemon</button>
+              <button 
+                type="button" class="btn btn-warning"
+                routerLink="items" routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }">Items</button>
+              <button type="button" class="btn btn-warning"
+                routerLink="types" routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }">Types</button>
+              <button type="button" class="btn btn-warning"
+                routerLink="moves" routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }">Moves</button>
+            </div>
+      </div>
+    </div>
+  </header>

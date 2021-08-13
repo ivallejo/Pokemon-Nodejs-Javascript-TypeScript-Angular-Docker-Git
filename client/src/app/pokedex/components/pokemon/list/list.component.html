@@ -1,0 +1,21 @@
+<div class="row">
+    <div class="col-4 py-1" *ngFor="let poke of pokemon; let i = index">
+        <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" 
+                style="
+                    background-image: url('{{ imagen(poke.id) }}');
+                    background-position: center;
+                    background-position-y: 5px;
+                    background-repeat: no-repeat;cursor:pointer">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-2 fw-bold">{{ poke.name?.english }}</h3>
+              <small class="">Type = {{ poke.type.join(',') }}</small>
+              <small class="">HP = {{ poke.base.HP }}</small>
+              <small class="">Attack = {{ poke.base.Attack }}</small>
+              <small class="">Defense = {{ poke.base.Defense }}</small>
+              <small class="">Sp. Attack = {{ poke.base['Sp. Attack'] }}</small>
+              <small class="">Sp. Defense = {{ poke.base['Sp. Defense'] }}</small>
+              <small class="">Speed = {{ poke.base.Speed }}</small>
+            </div>
+        </div>
+    </div>
+</div>

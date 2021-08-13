@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-4 py-1" *ngFor="let it of item; let i = index">
+        <div class="card card-cover card-custom h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h6 class="pt-4">English :{{ it.name?.english }}</h6>
+              <h6 class="">Japanese : {{ it.name?.japanese }}</h6>
+              <h6 class="">Chinese : {{ it.name?.chinese }}</h6>
+            </div>
+        </div>
+    </div>
+</div>

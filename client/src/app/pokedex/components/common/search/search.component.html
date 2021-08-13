@@ -1,0 +1,13 @@
+
+<div class="d-flex align-items-center">
+    <form (ngSubmit)="buscar()" autocomplete="off" class="w-100 me-3">
+        <input 
+        type="search" 
+        name="termino"
+        class="form-control" 
+        [placeholder]="placeholder" [(ngModel)]="termino">
+    </form>
+    <div class="flex-shrink-0">
+        <img src="https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/sprites/001MS.png" alt="mdo" width="32" height="32" class="rounded-circle">
+    </div>
+</div>

@@ -1,0 +1,9 @@
+
+<app-search
+    (onEnter)="buscar( $event )"
+    placeholder="1 or Bulbasaur">
+</app-search>
+<br>
+<div *ngIf="pokemon.length > 0" >
+    <app-list [pokemon]="pokemon"></app-list>
+</div>

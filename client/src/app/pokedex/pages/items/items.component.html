@@ -1,0 +1,8 @@
+<app-search
+    (onEnter)="buscar( $event )"
+    placeholder="1 or Master Ball">
+</app-search>
+<br>
+<div *ngIf="item.length > 0" >
+    <app-item-list [item]="item"></app-item-list>
+</div>
