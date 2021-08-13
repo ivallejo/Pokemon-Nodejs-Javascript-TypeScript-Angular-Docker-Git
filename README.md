@@ -14,12 +14,14 @@ The code is for the Integrating Angular with Node.js
 ### Client
 ```
 cd client
+npm install
 npm run start
 ```
 
 ### Server
 ```
 cd server
+npm install
 npm run start
 ```
 
