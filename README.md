@@ -45,7 +45,7 @@ docker run -it -p 5000:5000 node-restapi
 ```
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md]() file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://raw.githubusercontent.com/ivallejo/Pokemon-Nodejs-Javascript-TypeScript-Angular-Docker-Git/main/LICENSE) file for details.
 
 ## Where to get Help
 If you have any questions about the projec, contact me at email vallejoaguilar@gmail.com
